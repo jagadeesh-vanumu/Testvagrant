@@ -4,10 +4,7 @@ class planet:
     self.gases = gases
     self.moons = moons
     self.rings = rings
-    def moon_count(self):
-      return self.moons
-    def rings_count(self):
-      return self.rings
+    
 
 Mercury = planet('Mercury',0,'No',[])
 Venus   = planet('Venus',0,'No',['Carbon Dioxide','Nitrogen'])
